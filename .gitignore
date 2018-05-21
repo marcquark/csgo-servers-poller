@@ -1,0 +1,12 @@
+# Dependency directory
+node_modules
+
+# Mac specific
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Project specific
+*/config/*.json
