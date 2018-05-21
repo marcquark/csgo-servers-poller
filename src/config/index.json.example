@@ -1,0 +1,12 @@
+{
+    "pollInterval": 60,
+    "apiBaseUrl": "https://www.csgo-servers.eu/api",
+    "credentials": {
+        "user": "editor",
+        "password": "editor"
+    },
+    "logging": {
+        "enabled": true,
+        "verbose": false
+    }
+}

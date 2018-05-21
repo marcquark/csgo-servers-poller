@@ -1,0 +1,25 @@
+{
+  "name": "csgo-servers-poller",
+  "version": "1.0.0",
+  "description": "Serverpoller for csgo-servers (only compatible with v2 and newer)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcquark/csgo-servers-poller.git"
+  },
+  "author": "Marc Leuser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcquark/csgo-servers-poller/issues"
+  },
+  "homepage": "https://github.com/marcquark/csgo-servers-poller#readme",
+  "dependencies": {
+    "gamedig": "^1.0.46",
+    "loopback-nodejs-client": "^1.2.3"
+  }
+}
